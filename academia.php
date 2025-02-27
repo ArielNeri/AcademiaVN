@@ -137,6 +137,11 @@
     <div id="mensagem-sucesso" class="mensagem-sucesso"></div>
     <div id="localizacao-academia" class="localizacao"></div>
 </div>
+<?php
+date_default_timezone_set('America/Sao_Paulo'); // Define o fuso horário
+echo "Hora atual: " . date('H:i:s');
+?>
+
 <footer>
     <p1>Localização: Rua Douglas de Albuquerque de Ferreira</p1>
 </footer>
